@@ -10,8 +10,8 @@ const darkAmountSpan = document.getElementById("darkAmount");
 var darkCount = 2;
 var lightCount = 2;
 
-const lightSrc = "/media/ReversiPieceLight.png";
-const darkSrc = "/media/ReversiPieceDark.png";
+const lightSrc = "media/ReversiPieceLight.png";
+const darkSrc = "media/ReversiPieceDark.png";
 const darkImg = document.createElement("img"); darkImg.src = darkSrc; darkImg.classList.add("piece");
 const lightImg = document.createElement("img"); lightImg.src = lightSrc; lightImg.classList.add("piece");
 
